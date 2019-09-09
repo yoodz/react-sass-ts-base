@@ -1,5 +1,6 @@
 import * as React from 'react';
 import './style.scss';
+import FirstPage from '@component/FirstPage';
 
 interface IState {
   active: number
@@ -19,6 +20,7 @@ class App extends React.Component<{}, IState> {
     return (
       <div className="App">
         <h1>please go on ...</h1>
+        <FirstPage/>
       </div>
     );
   }

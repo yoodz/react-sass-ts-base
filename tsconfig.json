@@ -17,7 +17,13 @@
     "importHelpers": true,
     "strictNullChecks": true,
     "suppressImplicitAnyIndexErrors": true,
-    "noUnusedLocals": true
+    "noUnusedLocals": true,
+    "paths": {
+      "@src/*": ["./src/*"],
+      "@static/*": ["./src/static/*"],
+      "@component/*": ["./src/components/*"],
+      "@mobileComponent/*": ["./src/components/Mobile/*"]
+    },
   },
   "exclude": [
     "node_modules",
